@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="10" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HybridFramework" duration-ms="155705" started-at="2022-05-24T11:16:41 IST" finished-at="2022-05-24T11:19:17 IST">
+    <groups>
+    </groups>
+    <test name="HomePage Test" duration-ms="155705" started-at="2022-05-24T11:16:41 IST" finished-at="2022-05-24T11:19:17 IST">
+      <class name="com.mindtree.TestCases.TC_HomePage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.mindtree.TestCases.TC_HomePage@3578436e]" name="setup" is-config="true" duration-ms="5932" started-at="2022-05-24T11:16:41 IST" finished-at="2022-05-24T11:16:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:com.mindtree.TestCases.TC_HomePage@3578436e]" name="homePage" duration-ms="49" started-at="2022-05-24T11:16:47 IST" finished-at="2022-05-24T11:16:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.TestCases.TC_HomePage@3578436e]" name="tearDown" is-config="true" duration-ms="1019" started-at="2022-05-24T11:16:47 IST" finished-at="2022-05-24T11:16:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.TestCases.TC_HomePage -->
+      <class name="com.mindtree.TestCases.TC_ViewCustomerStories">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.mindtree.TestCases.TC_ViewCustomerStories@4cf4d528]" name="setup" is-config="true" duration-ms="6511" started-at="2022-05-24T11:18:38 IST" finished-at="2022-05-24T11:18:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="viewcusstories()[pri:0, instance:com.mindtree.TestCases.TC_ViewCustomerStories@4cf4d528]" name="viewcusstories" duration-ms="30662" started-at="2022-05-24T11:18:45 IST" finished-at="2022-05-24T11:19:15 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='testicontainer']/div[2]/div[2]"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3VORLA4B', ip: '192.168.43.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\kruti\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58063}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 14cb092c52ff1c8dae16349da3d90b49
+*** Element info: {Using=xpath, value=//*[@id='testicontainer']/div[2]/div[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='testicontainer']/div[2]/div[2]"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-3VORLA4B', ip: '192.168.43.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 100.0.4896.60 (6a5d10861ce8..., userDataDir: C:\Users\kruti\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58063}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 14cb092c52ff1c8dae16349da3d90b49
+*** Element info: {Using=xpath, value=//*[@id='testicontainer']/div[2]/div[2]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy11.getText(Unknown Source)
+at com.mindtree.PageObject.ViewCustomerStories.getStories(ViewCustomerStories.java:38)
+at com.mindtree.TestCases.TC_ViewCustomerStories.viewcusstories(TC_ViewCustomerStories.java:18)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewcusstories -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.TestCases.TC_ViewCustomerStories@4cf4d528]" name="tearDown" is-config="true" duration-ms="1107" started-at="2022-05-24T11:19:15 IST" finished-at="2022-05-24T11:19:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.TestCases.TC_ViewCustomerStories -->
+      <class name="com.mindtree.TestCases.TC_TVUnits">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.mindtree.TestCases.TC_TVUnits@646007f4]" name="setup" is-config="true" duration-ms="8542" started-at="2022-05-24T11:17:46 IST" finished-at="2022-05-24T11:17:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="tvUnits()[pri:0, instance:com.mindtree.TestCases.TC_TVUnits@646007f4]" name="tvUnits" duration-ms="2300" started-at="2022-05-24T11:17:55 IST" finished-at="2022-05-24T11:17:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tvUnits -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.TestCases.TC_TVUnits@646007f4]" name="tearDown" is-config="true" duration-ms="957" started-at="2022-05-24T11:17:57 IST" finished-at="2022-05-24T11:17:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.TestCases.TC_TVUnits -->
+      <class name="com.mindtree.TestCases.TC_GiftCard">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.mindtree.TestCases.TC_GiftCard@149494d8]" name="setup" is-config="true" duration-ms="4065" started-at="2022-05-24T11:17:14 IST" finished-at="2022-05-24T11:17:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="giftCard()[pri:0, instance:com.mindtree.TestCases.TC_GiftCard@149494d8]" name="giftCard" duration-ms="7539" started-at="2022-05-24T11:17:18 IST" finished-at="2022-05-24T11:17:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftCard -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.TestCases.TC_GiftCard@149494d8]" name="tearDown" is-config="true" duration-ms="1116" started-at="2022-05-24T11:17:26 IST" finished-at="2022-05-24T11:17:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.TestCases.TC_GiftCard -->
+      <class name="com.mindtree.TestCases.TC_FeesAndPayment">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.mindtree.TestCases.TC_FeesAndPayment@545997b1]" name="setup" is-config="true" duration-ms="7752" started-at="2022-05-24T11:18:27 IST" finished-at="2022-05-24T11:18:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="aboutUs()[pri:0, instance:com.mindtree.TestCases.TC_FeesAndPayment@545997b1]" name="aboutUs" duration-ms="2514" started-at="2022-05-24T11:18:35 IST" finished-at="2022-05-24T11:18:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUs -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.TestCases.TC_FeesAndPayment@545997b1]" name="tearDown" is-config="true" duration-ms="999" started-at="2022-05-24T11:18:37 IST" finished-at="2022-05-24T11:18:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.TestCases.TC_FeesAndPayment -->
+      <class name="com.mindtree.TestCases.TC_AboutUs">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.mindtree.TestCases.TC_AboutUs@306279ee]" name="setup" is-config="true" duration-ms="8525" started-at="2022-05-24T11:18:15 IST" finished-at="2022-05-24T11:18:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="aboutUs()[pri:0, instance:com.mindtree.TestCases.TC_AboutUs@306279ee]" name="aboutUs" duration-ms="2530" started-at="2022-05-24T11:18:23 IST" finished-at="2022-05-24T11:18:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUs -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.TestCases.TC_AboutUs@306279ee]" name="tearDown" is-config="true" duration-ms="991" started-at="2022-05-24T11:18:26 IST" finished-at="2022-05-24T11:18:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.TestCases.TC_AboutUs -->
+      <class name="com.mindtree.TestCases.TC_LoginPage">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.mindtree.TestCases.TC_LoginPage@4d1b0d2a]" name="setup" is-config="true" duration-ms="4660" started-at="2022-05-24T11:16:48 IST" finished-at="2022-05-24T11:16:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginpage()[pri:0, instance:com.mindtree.TestCases.TC_LoginPage@4d1b0d2a]" name="loginpage" duration-ms="861" started-at="2022-05-24T11:16:53 IST" finished-at="2022-05-24T11:16:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginpage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.TestCases.TC_LoginPage@4d1b0d2a]" name="tearDown" is-config="true" duration-ms="942" started-at="2022-05-24T11:16:54 IST" finished-at="2022-05-24T11:16:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.TestCases.TC_LoginPage -->
+      <class name="com.mindtree.TestCases.TC_GoStores">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.mindtree.TestCases.TC_GoStores@710726a3]" name="setup" is-config="true" duration-ms="7991" started-at="2022-05-24T11:17:27 IST" finished-at="2022-05-24T11:17:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="stores()[pri:0, instance:com.mindtree.TestCases.TC_GoStores@710726a3]" name="stores" duration-ms="10277" started-at="2022-05-24T11:17:35 IST" finished-at="2022-05-24T11:17:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stores -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.TestCases.TC_GoStores@710726a3]" name="tearDown" is-config="true" duration-ms="1024" started-at="2022-05-24T11:17:45 IST" finished-at="2022-05-24T11:17:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.TestCases.TC_GoStores -->
+      <class name="com.mindtree.TestCases.TC_SelectMattresses">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.mindtree.TestCases.TC_SelectMattresses@954b04f]" name="setup" is-config="true" duration-ms="7902" started-at="2022-05-24T11:16:55 IST" finished-at="2022-05-24T11:17:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="selectmattresses()[pri:0, instance:com.mindtree.TestCases.TC_SelectMattresses@954b04f]" name="selectmattresses" duration-ms="10625" started-at="2022-05-24T11:17:02 IST" finished-at="2022-05-24T11:17:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectmattresses -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.TestCases.TC_SelectMattresses@954b04f]" name="tearDown" is-config="true" duration-ms="1092" started-at="2022-05-24T11:17:13 IST" finished-at="2022-05-24T11:17:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.TestCases.TC_SelectMattresses -->
+      <class name="com.mindtree.TestCases.TC_SelectForCouples">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.mindtree.TestCases.TC_SelectForCouples@481a15ff]" name="setup" is-config="true" duration-ms="7469" started-at="2022-05-24T11:17:58 IST" finished-at="2022-05-24T11:18:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="selectforcouples()[pri:0, instance:com.mindtree.TestCases.TC_SelectForCouples@481a15ff]" name="selectforcouples" duration-ms="8274" started-at="2022-05-24T11:18:06 IST" finished-at="2022-05-24T11:18:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectforcouples -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.mindtree.TestCases.TC_SelectForCouples@481a15ff]" name="tearDown" is-config="true" duration-ms="1114" started-at="2022-05-24T11:18:14 IST" finished-at="2022-05-24T11:18:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.mindtree.TestCases.TC_SelectForCouples -->
+    </test> <!-- HomePage Test -->
+  </suite> <!-- HybridFramework -->
+</testng-results>
